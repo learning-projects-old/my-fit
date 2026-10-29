@@ -2,4 +2,9 @@ node_modules
 build
 .env
 .turbo
-.idea
+
+.idea/*
+!.idea/.name
+!.idea/icon.svg
+!.idea/runConfigurations/
+!.idea/runConfigurations/*.xml
