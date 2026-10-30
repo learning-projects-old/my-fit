@@ -1,0 +1,2758 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "my-fit",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:my-fit",
+      "type": "project",
+      "name": "my-fit"
+    },
+    {
+      "id": "project:my-fit/file:.github/workflows/ci.yml",
+      "type": "file",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "id": "project:my-fit/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "7c252bef1e366a1e87b7a7399d576645b3e69b40b5f65b5206d4ece73a29b551",
+      "bytes": 616
+    },
+    {
+      "id": "project:my-fit/file:apps/app/eslint.config.js",
+      "type": "file",
+      "path": "apps/app/eslint.config.js",
+      "sha256": "458b2a99284f8a0195f9b761e2690912841bc7bac0fd1c2521bbe8b438ec43ab",
+      "bytes": 786
+    },
+    {
+      "id": "project:my-fit/file:apps/app/package.json",
+      "type": "file",
+      "path": "apps/app/package.json",
+      "sha256": "7e5d1767cc8ca3d0004ee34324c88d671903c3ef9276830f855bb716322d986b",
+      "bytes": 1689
+    },
+    {
+      "id": "project:my-fit/file:apps/app/prettier.config.js",
+      "type": "file",
+      "path": "apps/app/prettier.config.js",
+      "sha256": "ca5ce4a6ca00b4c84b76d663db5da5cb12cacab19b2d3ebfba301aed3b21f439",
+      "bytes": 73
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/App.vue",
+      "type": "file",
+      "path": "apps/app/src/App.vue",
+      "sha256": "104c7e41ed0a031b2cf4a5eabbbc334b197bbae94befa113df08a5a71b9abde9",
+      "bytes": 913
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/env.d.ts",
+      "type": "file",
+      "path": "apps/app/src/env.d.ts",
+      "sha256": "d0479fd2c639c25e5c5bf80f6d29dc1a33c12dbf7b2441ecf08c791685c46406",
+      "bytes": 223
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/main.ts",
+      "type": "file",
+      "path": "apps/app/src/main.ts",
+      "sha256": "0137f68e18bc23d20c3da49a2fb196085fba5e11deec04ac9388f9b2531490e2",
+      "bytes": 517
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityAdminList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityAdminList.vue",
+      "sha256": "84b50003a3a3617dc2b7b4808b3ba4386194f9bfe891e9e2d9a8302a70102e25",
+      "bytes": 829
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityCalendar.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityCalendar.vue",
+      "sha256": "eb201c8c54e6f20407f8bf86f2c6e938c15553029118f69429edd567ad77d54a",
+      "bytes": 1152
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityChart.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityChart.vue",
+      "sha256": "dad6bd56f3582b26297a2317f760337507c4987afad961b143dfb36fdd374f7b",
+      "bytes": 876
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityDuration.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityDuration.vue",
+      "sha256": "88a358f9e0ebf81fad956e4e287bd0094e726db10ee4c6e75ed162d44752d101",
+      "bytes": 1304
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityExerciseElement.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityExerciseElement.vue",
+      "sha256": "1134f34326a1750de377d733537c2f329c6bee4ca741987ffbb2e6f203b36e67",
+      "bytes": 3699
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityExerciseForm.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityExerciseForm.vue",
+      "sha256": "ea58b0fb24f0323f32eee2e94e6ffc892401fc1561ba5c97a85a65707ea97f1a",
+      "bytes": 2631
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityExerciseList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityExerciseList.vue",
+      "sha256": "f35e486fda98901a92b352e91d16c16596ac36dc222daf97c62ede3398410883",
+      "bytes": 1111
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityForm.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityForm.vue",
+      "sha256": "f56fd2874cb9c2ec5e17eee5c9cae1cea820d742af6f0e82f31a29367e0d84f3",
+      "bytes": 4662
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityInfo.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityInfo.vue",
+      "sha256": "1e2b8e04d138ff6c3875356febb34bb6a40fbb1a3aecf22ad412d125e8f51054",
+      "bytes": 3802
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityList.vue",
+      "sha256": "5c888189cbeac17334940e0a655c03edaa644ba52a56e7849a945e2288c9d5b4",
+      "bytes": 462
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityStatistics.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/components/ActivityStatistics.vue",
+      "sha256": "23364afc0d96b8cfd040ad380fe5e65ce617a50ebecb7c00a1f2c64767e32d3a",
+      "bytes": 1370
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/constants/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/constants/index.ts",
+      "sha256": "da10fc15e4b57af76209e566667167c26b7e2f99495b10ebd835ec587f93d585",
+      "bytes": 683
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/interface/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/interface/index.ts",
+      "sha256": "4f5ada3c88575760ef4fc0629766b9bcfe29eacb81c07c6ed0883cb695c72055",
+      "bytes": 210
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityCreatePage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/pages/ActivityCreatePage.vue",
+      "sha256": "a5ae1c625b86564a73b181192a0d7e1ed959bdab990e75d7d155a5669047d269",
+      "bytes": 496
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityEditPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/pages/ActivityEditPage.vue",
+      "sha256": "3f926ef3f23fc19afb4b9e632dc5d5cbb3358dc930cda07ccedc31e729483cb1",
+      "bytes": 1717
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityListPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/pages/ActivityListPage.vue",
+      "sha256": "de7dcc273f8be3afa1cec783ddd038789179b7b089a2503154bc92594b8d59f4",
+      "bytes": 776
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityPassingPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/pages/ActivityPassingPage.vue",
+      "sha256": "2aa0000dc9534b549f7ffcc5e4ebaf6ad48ebbe0523900954be9be940b629ff5",
+      "bytes": 492
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/routes/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/routes/index.ts",
+      "sha256": "c6abd17076ce8b3682a9cbf7636b17623e9e72dbcc1ca4664605e7050a2bc103",
+      "bytes": 817
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/activity/services/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/activity/services/index.ts",
+      "sha256": "d6acea81d6b2d8c09fe85f39a0754f2b13bfb77e90fb121940b5b4033d1de1e0",
+      "bytes": 3176
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/auth/components/AuthForm.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/auth/components/AuthForm.vue",
+      "sha256": "da08644fd74227cff1e845c9d24a6396a3fec60f6fb972456a3bbfd790538409",
+      "bytes": 2229
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/auth/constants/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/auth/constants/index.ts",
+      "sha256": "ebe59ef1149f86eca688ad1afee323c3f40bc528d7470531e19187cc20bc5d02",
+      "bytes": 75
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/auth/pages/SetupPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/auth/pages/SetupPage.vue",
+      "sha256": "7bca8062b7b84e82096dbeacdb8eafa00d8e09b13b287988dfa6a36c361c55c5",
+      "bytes": 334
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/auth/routes/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/auth/routes/index.ts",
+      "sha256": "69e27b92a646d4a1a70c34649bf9c7c0b00308cf2fbf331600263eff16f108db",
+      "bytes": 198
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/auth/services/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/auth/services/index.ts",
+      "sha256": "23a0c8442a35a3f0ac5d421b6f130d2cd9494f151cc5286f7208f3336ead6c26",
+      "bytes": 1015
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/common/components/FormButtons.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/common/components/FormButtons.vue",
+      "sha256": "2f11122d5940d932b08afeeec1ffa1b7a4e86d2b9704089604f7899cc4bca67d",
+      "bytes": 1263
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/common/constants/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/common/constants/index.ts",
+      "sha256": "6ae70e4ffe6b7c69f94fb47d18460ea1ca696a38fde13ee9334c30806cd3a717",
+      "bytes": 62
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/common/pages/ErrorPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/common/pages/ErrorPage.vue",
+      "sha256": "b948f95f2e6e4856751cf64bd05f939cedb0235a5c35ddbc2c66d28649a27d02",
+      "bytes": 68
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/common/pages/HomePage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/common/pages/HomePage.vue",
+      "sha256": "a545524b0d4a5298017ce8f7497adb8d0bd3508010162934d92511377bf3d500",
+      "bytes": 2088
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/common/router/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/common/router/index.ts",
+      "sha256": "9f675bea42ed1c1d20fc5400300c85901f0fcb50c2f24a1c26fa308b71222704",
+      "bytes": 697
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/common/router/routes.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/common/router/routes.ts",
+      "sha256": "24cf421706bffb9444931aed5fda11eaac6812aef15052cc5303fa9a8620cfd3",
+      "bytes": 720
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChooseElement.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseChooseElement.vue",
+      "sha256": "307c423b26c71df10df6f60978bd3c031880ef3a8dc96667dc15142be328ccb7",
+      "bytes": 1593
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChooseList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseChooseList.vue",
+      "sha256": "a95cff19eabee41627a65b424d2d445b95a037ac88568e97af085e70c7e55950",
+      "bytes": 2530
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChoosenElement.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseChoosenElement.vue",
+      "sha256": "c80bb1c89070a76502153f85ac7cb5c168e7b29b683ea248d1f6a45a6587f837",
+      "bytes": 848
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChoosenList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseChoosenList.vue",
+      "sha256": "a677463f8aeb8e39988cc359a4bfba2feb8c7bb4c53e567f70a1e9cec9934831",
+      "bytes": 659
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseForm.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseForm.vue",
+      "sha256": "78c550851b472f9e7ac45fd6c9b8df62eb7103df12a6d7af6f365121e7d76b1d",
+      "bytes": 4446
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseList.vue",
+      "sha256": "87f05c89b651bd535fe43fe2ba7c38f1e8fee1fb98d60406f12f6a23a679141f",
+      "bytes": 749
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseStatistics.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseStatistics.vue",
+      "sha256": "55f41709b80e541e18d43360544c804c0bcff1590b4777f39742b0b1045c17bb",
+      "bytes": 1341
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseTitle.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/components/ExerciseTitle.vue",
+      "sha256": "b8b02830c1ff0b87fd4cf96eabeaf93d14b3ba4ec660016509197ace99dd516b",
+      "bytes": 2094
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/constants/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/constants/index.ts",
+      "sha256": "ecba2d1fe99925f9c9ea3a90f96a652db17dee5011a3b84196b42365b1bf872e",
+      "bytes": 1166
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/pages/ExerciseCreatePage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/pages/ExerciseCreatePage.vue",
+      "sha256": "d5d47dbe14d4bdf0e54798a9e6ef33f217a086cd4ef188dfbad9d4f88e5c37ae",
+      "bytes": 164
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/pages/ExerciseEditPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/pages/ExerciseEditPage.vue",
+      "sha256": "719069179c86abcb910a8c642b3a12c7d3aeb434d4f248d625637d26a15f9ba4",
+      "bytes": 464
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/pages/ExerciseListPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/pages/ExerciseListPage.vue",
+      "sha256": "c5816ec2cc6460d925bbc0ca249447e2ab415a16a74f3209ff223e6c817b5b5b",
+      "bytes": 519
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/routes/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/routes/index.ts",
+      "sha256": "4a4fae8200d6f29fd4ff3f1c8ce3e76519c83e17483e7cf56114bb083e9d62f4",
+      "bytes": 547
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/exercise/services/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/exercise/services/index.ts",
+      "sha256": "64bed3b768d9db32d8cc40d0016b541b3f64c59627b0686caffedf0511ccbb3d",
+      "bytes": 1590
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/layout/components/LayoutAdmin.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/layout/components/LayoutAdmin.vue",
+      "sha256": "b92f081160600309fef50088ba2de8436b237237ddd375034af02a56a853db60",
+      "bytes": 496
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/layout/components/LayoutEmpty.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/layout/components/LayoutEmpty.vue",
+      "sha256": "01eb564c64393b753aadfd1b98f0f0c50795a0afb083e2b0d9980449e298067c",
+      "bytes": 710
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/layout/components/NavItem.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/layout/components/NavItem.vue",
+      "sha256": "e09061d3313243f3d83412c30c224f4b7d33ae7546aa5658e8ff139bbf48a893",
+      "bytes": 881
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/layout/components/NavList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/layout/components/NavList.vue",
+      "sha256": "c8048e1a3ef70952f924443a4fdf1962f763f5085bcf3abb6d11b15199e250c3",
+      "bytes": 547
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/layout/components/TheHeader.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/layout/components/TheHeader.vue",
+      "sha256": "2f1e24551cf6e7ee8586c2469c8ff8eaeb4f56bb6ed4140ef17f748027840cbf",
+      "bytes": 1744
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/layout/constants/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/layout/constants/index.ts",
+      "sha256": "9dd5dc169201361128c50e24194d0382755fdcde45be51b3c9e18cb48d2530d9",
+      "bytes": 705
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/layout/interface/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/layout/interface/index.ts",
+      "sha256": "ce479092e267bfcdf4c369a1a0050029bc6463be43adcfaf1aaffad622c1e77d",
+      "bytes": 150
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/components/UserForm.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/user/components/UserForm.vue",
+      "sha256": "aedebee2c3fc53779c5fcc62ce1731fa4b45a219f97f8a2a6ae65f8ad9b833d5",
+      "bytes": 2583
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/components/UserList.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/user/components/UserList.vue",
+      "sha256": "3a672960a2171f5dac7b198b77f042bc087268d11ba8cf19545ba317651a8cc3",
+      "bytes": 714
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/constants/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/user/constants/index.ts",
+      "sha256": "f3c9870c1dc23cee8a5afbe3ca1eab9e42a1f12ab19fbffcdc66fdc6d310e854",
+      "bytes": 136
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/pages/UserCreatePage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/user/pages/UserCreatePage.vue",
+      "sha256": "73ed0935e414a7214346c8d2516b5ab2646792688b4f36c89e63eea55b1b73d7",
+      "bytes": 148
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/pages/UserEditPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/user/pages/UserEditPage.vue",
+      "sha256": "1af7638665261d14dcf94fbd15262677b04dc5aa6bce07301597f362fabcc793",
+      "bytes": 408
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/pages/UserListPage.vue",
+      "type": "file",
+      "path": "apps/app/src/modules/user/pages/UserListPage.vue",
+      "sha256": "788b9349418bca2f852371d39733b5fefd4eb67e83d97e4afcd888eafa5c0c93",
+      "bytes": 859
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/routes/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/user/routes/index.ts",
+      "sha256": "2c440b78f419f46177d856e6aa6bfe6d68889a35380c88f8dd4671f1d355dfcc",
+      "bytes": 475
+    },
+    {
+      "id": "project:my-fit/file:apps/app/src/modules/user/services/index.ts",
+      "type": "file",
+      "path": "apps/app/src/modules/user/services/index.ts",
+      "sha256": "d59535c1770d72ab9459574edf9c06cd383e3e1c11b459b65d75704097a300b5",
+      "bytes": 1593
+    },
+    {
+      "id": "project:my-fit/file:apps/app/stylelint.config.js",
+      "type": "file",
+      "path": "apps/app/stylelint.config.js",
+      "sha256": "a311caa35014bbe292ed4fe248df7a3bed29fa9943022842da595533d8bb2cbd",
+      "bytes": 75
+    },
+    {
+      "id": "project:my-fit/file:apps/app/vite.config.ts",
+      "type": "file",
+      "path": "apps/app/vite.config.ts",
+      "sha256": "5573040601b2f074d0d080783fe41db44971dfaca0656501823214c79f74c329",
+      "bytes": 1004
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/eslint.config.js",
+      "type": "file",
+      "path": "apps/backend/eslint.config.js",
+      "sha256": "7700e30f087baa5974674c802eff115a5e92a46dcc66c0e92ffd9c7fd258b80e",
+      "bytes": 605
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/package.json",
+      "type": "file",
+      "path": "apps/backend/package.json",
+      "sha256": "4a6fdd6c43672c8e4cd9c6533fc4abf97375ce85f950d699e5a7e746388484e8",
+      "bytes": 1604
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/prettier.config.js",
+      "type": "file",
+      "path": "apps/backend/prettier.config.js",
+      "sha256": "7f0e5945643f19b55fd4898b705f40a995ee47e13105dd30ebeb23262de91a1b",
+      "bytes": 77
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/app.ts",
+      "type": "file",
+      "path": "apps/backend/src/app.ts",
+      "sha256": "35de6520a22cb8a358091c61c7f5e8b615eda8049cc4ee95801b8689718db14c",
+      "bytes": 975
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/helpers/date.ts",
+      "type": "file",
+      "path": "apps/backend/src/helpers/date.ts",
+      "sha256": "204740f1051f6f802d6ebe5d89e4caf069e612964ca98783756e31e4786aee56",
+      "bytes": 665
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/helpers/decodeToken.ts",
+      "type": "file",
+      "path": "apps/backend/src/helpers/decodeToken.ts",
+      "sha256": "c60a377fecd0d9ebb5a07ebcc5e167bd70bb5c85b3c5beb4ed461a3b202a4093",
+      "bytes": 312
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/helpers/index.ts",
+      "type": "file",
+      "path": "apps/backend/src/helpers/index.ts",
+      "sha256": "f50b0c8f6b2e10835d6b94e37fd6cc3516f5c1187bca0a3ec3605b4b8cae047e",
+      "bytes": 143
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/helpers/paginate.ts",
+      "type": "file",
+      "path": "apps/backend/src/helpers/paginate.ts",
+      "sha256": "646b612636d47fe9b000d52962e0903b163e2079fb1daa37f0a12eb9ea6b9a0d",
+      "bytes": 518
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/index.ts",
+      "type": "file",
+      "path": "apps/backend/src/index.ts",
+      "sha256": "1340807136529347903ce8860f57ddf4392169bdc46aab36038c9a7cd9679b68",
+      "bytes": 395
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "type": "file",
+      "path": "apps/backend/src/interface/index.ts",
+      "sha256": "d034912bcfb37a9fd5099be4797169ff2cf6c0aa8587ed9308a0e32cd874be98",
+      "bytes": 2305
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/models/activity.ts",
+      "type": "file",
+      "path": "apps/backend/src/models/activity.ts",
+      "sha256": "ccb9a7308f27682c211706ccc19f06407afa72a269be73631732e13529f62508",
+      "bytes": 663
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/models/exercise.ts",
+      "type": "file",
+      "path": "apps/backend/src/models/exercise.ts",
+      "sha256": "9e891f1b8767f0b0c75a663c4d2171b72c777a906c546d95cac89177c8c133cb",
+      "bytes": 517
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/models/user.ts",
+      "type": "file",
+      "path": "apps/backend/src/models/user.ts",
+      "sha256": "d8050a7f73224c903bdc8084aef5820d2875588e883b44d539a96afae70eec11",
+      "bytes": 409
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/plugins/auth.ts",
+      "type": "file",
+      "path": "apps/backend/src/plugins/auth.ts",
+      "sha256": "cfc3191c6b2ade1dcfaa9d40f8e97e930662597f7138627f764204e7e602b03c",
+      "bytes": 638
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/plugins/cors.ts",
+      "type": "file",
+      "path": "apps/backend/src/plugins/cors.ts",
+      "sha256": "1965fff9d89dfaa8973db90905920504c5f5cdcc0d21195bc788c09b79412c45",
+      "bytes": 307
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/plugins/helmet.ts",
+      "type": "file",
+      "path": "apps/backend/src/plugins/helmet.ts",
+      "sha256": "1ad2c3448a78918662173cbd3a12fae420df9815829c48c84c42142615f4b177",
+      "bytes": 149
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/plugins/rate.ts",
+      "type": "file",
+      "path": "apps/backend/src/plugins/rate.ts",
+      "sha256": "48e1197edbd1a48d00461c123c30c49efdff52b524fbc2627b8c793fbe34bf89",
+      "bytes": 192
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/routes/activity.ts",
+      "type": "file",
+      "path": "apps/backend/src/routes/activity.ts",
+      "sha256": "37ce3ee93bb53a6110ade5ae0adcc415e54fc7fd73d1a2a53afd727113e672f8",
+      "bytes": 3447
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/routes/auth.ts",
+      "type": "file",
+      "path": "apps/backend/src/routes/auth.ts",
+      "sha256": "a62429c17bd034c9302785da65100b0c4e4e19d121e8627fffaaed4bf691eed9",
+      "bytes": 1597
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/routes/exercise.ts",
+      "type": "file",
+      "path": "apps/backend/src/routes/exercise.ts",
+      "sha256": "3aaf3f7e2f1a1f3e2f8aa41273c8745bf1e2655e883739169e9826fdd8911b5b",
+      "bytes": 1799
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/routes/user.ts",
+      "type": "file",
+      "path": "apps/backend/src/routes/user.ts",
+      "sha256": "b5f39efd7c1740678f6c1c07079187fb59e96e278f56593a0659eaeb6e8e9139",
+      "bytes": 1930
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/services/activity.ts",
+      "type": "file",
+      "path": "apps/backend/src/services/activity.ts",
+      "sha256": "cdfa9669040d5729de76133725d4874d0429328d7379da6f4b2a065545108000",
+      "bytes": 6461
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/services/auth.ts",
+      "type": "file",
+      "path": "apps/backend/src/services/auth.ts",
+      "sha256": "82b570273e1a0573706cf67da23903c54066a7d59192952fb9d08a4ae39b5d99",
+      "bytes": 1431
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/services/exercise.ts",
+      "type": "file",
+      "path": "apps/backend/src/services/exercise.ts",
+      "sha256": "74cbfd4d9e75974f8bfd810e25ed12230af162385e50658777978ce92cd2e081",
+      "bytes": 921
+    },
+    {
+      "id": "project:my-fit/file:apps/backend/src/services/user.ts",
+      "type": "file",
+      "path": "apps/backend/src/services/user.ts",
+      "sha256": "7e0d90db78fc69f6621e5d7b64ecc4fa9e5b584ecb25c84bb4b7c40ee84d93ee",
+      "bytes": 1044
+    },
+    {
+      "id": "project:my-fit/file:package.json",
+      "type": "file",
+      "path": "package.json",
+      "sha256": "29bfc5769cf08b647759b94a740f56af55fad1912723fffed5651d61e10baff7",
+      "bytes": 859
+    },
+    {
+      "id": "package:npm:@changesets/cli",
+      "type": "package",
+      "name": "@changesets/cli",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@turbo/gen",
+      "type": "package",
+      "name": "@turbo/gen",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:turbo",
+      "type": "package",
+      "name": "turbo",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:fitness-tracker-contracts",
+      "type": "package",
+      "name": "fitness-tracker-contracts",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:mhz-ui",
+      "type": "package",
+      "name": "mhz-ui",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:mhz-helpers",
+      "type": "package",
+      "name": "mhz-helpers",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue",
+      "type": "package",
+      "name": "vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-router",
+      "type": "package",
+      "name": "vue-router",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@eslint/js",
+      "type": "package",
+      "name": "@eslint/js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/node",
+      "type": "package",
+      "name": "@types/node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vitejs/plugin-vue",
+      "type": "package",
+      "name": "@vitejs/plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-config-prettier",
+      "type": "package",
+      "name": "eslint-config-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-import-resolver-typescript",
+      "type": "package",
+      "name": "eslint-import-resolver-typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-import-x",
+      "type": "package",
+      "name": "eslint-plugin-import-x",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-prettier",
+      "type": "package",
+      "name": "eslint-plugin-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-vue",
+      "type": "package",
+      "name": "eslint-plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:globals",
+      "type": "package",
+      "name": "globals",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:postcss-html",
+      "type": "package",
+      "name": "postcss-html",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:sass-embedded",
+      "type": "package",
+      "name": "sass-embedded",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:stylelint",
+      "type": "package",
+      "name": "stylelint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:stylelint-config-recess-order",
+      "type": "package",
+      "name": "stylelint-config-recess-order",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:stylelint-config-recommended-scss",
+      "type": "package",
+      "name": "stylelint-config-recommended-scss",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:stylelint-config-recommended-vue",
+      "type": "package",
+      "name": "stylelint-config-recommended-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:stylelint-prettier",
+      "type": "package",
+      "name": "stylelint-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript-eslint",
+      "type": "package",
+      "name": "typescript-eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite",
+      "type": "package",
+      "name": "vite",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite-plugin-pwa",
+      "type": "package",
+      "name": "vite-plugin-pwa",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite-svg-loader",
+      "type": "package",
+      "name": "vite-svg-loader",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-eslint-parser",
+      "type": "package",
+      "name": "vue-eslint-parser",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-linters-config",
+      "type": "package",
+      "name": "vue-linters-config",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-tsc",
+      "type": "package",
+      "name": "vue-tsc",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@fastify/autoload",
+      "type": "package",
+      "name": "@fastify/autoload",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@fastify/cors",
+      "type": "package",
+      "name": "@fastify/cors",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@fastify/helmet",
+      "type": "package",
+      "name": "@fastify/helmet",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@fastify/jwt",
+      "type": "package",
+      "name": "@fastify/jwt",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@fastify/rate-limit",
+      "type": "package",
+      "name": "@fastify/rate-limit",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:bcryptjs",
+      "type": "package",
+      "name": "bcryptjs",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:dotenv",
+      "type": "package",
+      "name": "dotenv",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:fastify",
+      "type": "package",
+      "name": "fastify",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:fastify-plugin",
+      "type": "package",
+      "name": "fastify-plugin",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:mongoose",
+      "type": "package",
+      "name": "mongoose",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/bcryptjs",
+      "type": "package",
+      "name": "@types/bcryptjs",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:esbuild",
+      "type": "package",
+      "name": "esbuild",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:fastify-linters-config",
+      "type": "package",
+      "name": "fastify-linters-config",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:nodemon",
+      "type": "package",
+      "name": "nodemon",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:.github/workflows/ci.yml",
+      "relation": "contains",
+      "evidence": {
+        "path": ".github/workflows/ci.yml"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/eslint.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/eslint.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/prettier.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/prettier.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/App.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/App.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/env.d.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/env.d.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/main.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/main.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityAdminList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityAdminList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityCalendar.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityCalendar.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityChart.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityChart.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityDuration.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityDuration.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityExerciseElement.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityExerciseElement.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityExerciseForm.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityExerciseForm.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityExerciseList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityExerciseList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityForm.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityForm.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityInfo.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityInfo.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityStatistics.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityStatistics.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/constants/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/constants/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/interface/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/interface/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityCreatePage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/pages/ActivityCreatePage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityEditPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/pages/ActivityEditPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityListPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/pages/ActivityListPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/pages/ActivityPassingPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/pages/ActivityPassingPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/routes/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/routes/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/services/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/services/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/auth/components/AuthForm.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/auth/components/AuthForm.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/auth/constants/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/auth/constants/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/auth/pages/SetupPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/auth/pages/SetupPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/auth/routes/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/auth/routes/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/auth/services/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/auth/services/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/common/components/FormButtons.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/common/components/FormButtons.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/common/constants/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/common/constants/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/common/pages/ErrorPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/common/pages/ErrorPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/common/pages/HomePage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/common/pages/HomePage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/common/router/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/common/router/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/common/router/routes.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/common/router/routes.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChooseElement.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseChooseElement.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChooseList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseChooseList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChoosenElement.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseChoosenElement.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChoosenList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseChoosenList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseForm.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseForm.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseStatistics.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseStatistics.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseTitle.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseTitle.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/constants/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/constants/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/pages/ExerciseCreatePage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/pages/ExerciseCreatePage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/pages/ExerciseEditPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/pages/ExerciseEditPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/pages/ExerciseListPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/pages/ExerciseListPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/routes/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/routes/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/services/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/services/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/layout/components/LayoutAdmin.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/layout/components/LayoutAdmin.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/layout/components/LayoutEmpty.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/layout/components/LayoutEmpty.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/layout/components/NavItem.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/layout/components/NavItem.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/layout/components/NavList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/layout/components/NavList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/layout/components/TheHeader.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/layout/components/TheHeader.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/layout/constants/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/layout/constants/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/layout/interface/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/layout/interface/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/components/UserForm.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/components/UserForm.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/components/UserList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/components/UserList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/constants/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/constants/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/pages/UserCreatePage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/pages/UserCreatePage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/pages/UserEditPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/pages/UserEditPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/pages/UserListPage.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/pages/UserListPage.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/routes/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/routes/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/src/modules/user/services/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/src/modules/user/services/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/stylelint.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/stylelint.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/app/vite.config.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/app/vite.config.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/eslint.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/eslint.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/prettier.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/prettier.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/app.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/app.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/helpers/date.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/helpers/date.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/helpers/decodeToken.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/helpers/decodeToken.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/helpers/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/helpers/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/helpers/paginate.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/helpers/paginate.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/interface/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/models/activity.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/models/activity.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/models/exercise.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/models/exercise.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/models/user.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/models/user.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/plugins/auth.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/plugins/auth.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/plugins/cors.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/plugins/cors.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/plugins/helmet.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/plugins/helmet.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/plugins/rate.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/plugins/rate.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/routes/activity.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/routes/activity.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/routes/auth.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/routes/auth.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/routes/exercise.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/routes/exercise.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/routes/user.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/routes/user.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/services/activity.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/services/activity.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/services/auth.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/services/auth.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/services/exercise.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/services/exercise.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:apps/backend/src/services/user.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "apps/backend/src/services/user.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit",
+      "target": "project:my-fit/file:package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/src/main.ts",
+      "target": "project:my-fit/file:apps/app/src/App.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/app/src/main.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/index.ts",
+      "target": "project:my-fit/file:apps/backend/src/app.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/index.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/helpers/index.ts",
+      "target": "project:my-fit/file:apps/backend/src/helpers/decodeToken.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/helpers/index.ts",
+        "line": 1
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/helpers/index.ts",
+      "target": "project:my-fit/file:apps/backend/src/helpers/paginate.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/helpers/index.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/helpers/index.ts",
+      "target": "project:my-fit/file:apps/backend/src/helpers/date.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/helpers/index.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/activity.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/activity.ts",
+        "line": 18
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/activity.ts",
+      "target": "project:my-fit/file:apps/backend/src/services/activity.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/activity.ts",
+        "line": 19
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/auth.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/auth.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/auth.ts",
+      "target": "project:my-fit/file:apps/backend/src/services/auth.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/auth.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/exercise.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/exercise.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/exercise.ts",
+      "target": "project:my-fit/file:apps/backend/src/services/exercise.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/exercise.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/user.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/user.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/routes/user.ts",
+      "target": "project:my-fit/file:apps/backend/src/services/user.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/routes/user.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/activity.ts",
+      "target": "project:my-fit/file:apps/backend/src/models/activity.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/activity.ts",
+        "line": 8
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/activity.ts",
+      "target": "project:my-fit/file:apps/backend/src/models/exercise.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/activity.ts",
+        "line": 9
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/activity.ts",
+      "target": "project:my-fit/file:apps/backend/src/helpers/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/activity.ts",
+        "line": 11
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/activity.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/activity.ts",
+        "line": 12
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/auth.ts",
+      "target": "project:my-fit/file:apps/backend/src/models/user.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/auth.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/auth.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/auth.ts",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/exercise.ts",
+      "target": "project:my-fit/file:apps/backend/src/models/exercise.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/exercise.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/exercise.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/exercise.ts",
+        "line": 5
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/user.ts",
+      "target": "project:my-fit/file:apps/backend/src/models/user.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/user.ts",
+        "line": 4
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/user.ts",
+      "target": "project:my-fit/file:apps/backend/src/helpers/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/user.ts",
+        "line": 6
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/src/services/user.ts",
+      "target": "project:my-fit/file:apps/backend/src/interface/index.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/backend/src/services/user.ts",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityCalendar.vue",
+      "target": "project:my-fit/file:apps/app/src/modules/activity/components/ActivityInfo.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/app/src/modules/activity/components/ActivityCalendar.vue",
+        "line": 21
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChooseList.vue",
+      "target": "project:my-fit/file:apps/app/src/modules/exercise/components/ExerciseChooseElement.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "apps/app/src/modules/exercise/components/ExerciseChooseList.vue",
+        "line": 40
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:my-fit/file:package.json",
+      "target": "package:npm:@changesets/cli",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:package.json",
+      "target": "package:npm:@turbo/gen",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:package.json",
+      "target": "package:npm:turbo",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:fitness-tracker-contracts",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:mhz-ui",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:mhz-helpers",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vue-router",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:@eslint/js",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 30
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:@vitejs/plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 33
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:eslint-import-resolver-typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 34
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:eslint-plugin-import-x",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 35
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:eslint-plugin-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 36
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:eslint-plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:globals",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:postcss-html",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:sass-embedded",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 41
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:stylelint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 42
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:stylelint-config-recess-order",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 43
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:stylelint-config-recommended-scss",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 44
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:stylelint-config-recommended-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 45
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:stylelint-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 46
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 47
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:typescript-eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 48
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vite-plugin-pwa",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 50
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vite-svg-loader",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 51
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vue-eslint-parser",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 52
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vue-linters-config",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 53
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/app/package.json",
+      "target": "package:npm:vue-tsc",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/app/package.json",
+        "line": 54
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@fastify/autoload",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@fastify/cors",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@fastify/helmet",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@fastify/jwt",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@fastify/rate-limit",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 28
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:bcryptjs",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:dotenv",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 30
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:fastify",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:fastify-plugin",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:fitness-tracker-contracts",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 33
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:mongoose",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 34
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@eslint/js",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 37
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@types/bcryptjs",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 38
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 39
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:esbuild",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 40
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 41
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 42
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:eslint-import-resolver-typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 43
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:eslint-plugin-import-x",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 44
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:eslint-plugin-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 45
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:globals",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 46
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:fastify-linters-config",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 47
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:nodemon",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 48
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 49
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 50
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:my-fit/file:apps/backend/package.json",
+      "target": "package:npm:typescript-eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "apps/backend/package.json",
+        "line": 51
+      },
+      "method": "manifest"
+    }
+  ]
+}
